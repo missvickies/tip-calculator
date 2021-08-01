@@ -2,7 +2,7 @@ import { Card } from '@twilio-paste/core';
 import { TipSelectContainer } from '../containers/TipSelectContainer';
 import { MenuItemsContainer } from '../containers/MenuItemsContainer';
 import { NewItemForm } from '../containers/NewItemFormContainer';
-import { Summary } from './Summary';
+import { SummaryContainer } from '../containers/SummaryContainer';
 import { NewItemFormContainer } from '../containers/NewItemFormContainer';
 
 // const items = [
@@ -16,7 +16,7 @@ const Calculator = () => {
       <NewItemFormContainer />
       <MenuItemsContainer />
       <TipSelectContainer />
-      <Summary />
+      <SummaryContainer />
     </Card>
   );
 };
